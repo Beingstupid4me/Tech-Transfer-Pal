@@ -26,7 +26,7 @@ app_state = {}
 # Allows your React frontend to communicate with this backend
 origins = [
     "http://localhost:3000",  # Default React dev server
-    # Add your production frontend URL here later
+    "https://otmt.iiitd.edu.in"
 ]
 app.add_middleware(
     CORSMiddleware,
